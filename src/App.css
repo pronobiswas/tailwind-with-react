@@ -1,0 +1,15 @@
+
+:root {
+    --RoyalBlue : #1C1E53;
+    --Darkblue : #282938;
+    --Tintblue : #1C1E53;
+    --Grey : #F4F6FC;
+    --Yellow : #FCD980;
+    --Accent : #EEF4FA;
+    --white :#fff;
+}
+
+.h-center{
+    display: flex;
+    align-items: center;
+}
