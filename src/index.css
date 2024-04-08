@@ -11,3 +11,24 @@ a{
     font-size: 16px;
     display: block;
 }
+h1{
+    font-size: 54px;
+    line-height: 115%;
+}
+p{
+    font-size: 16px;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.btn{
+   padding: 12px 48px; 
+   border: 1px solid gray;
+   border-radius: 24px;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
