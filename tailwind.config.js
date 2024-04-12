@@ -15,6 +15,10 @@ export default {
         Yellow : '#FCD980',
         Accent : '#EEF4FA'
       },
+      backgroundImage: {
+        'inquriBG': "url('./Components/HomeComponent/images/inquiry.jpg')",
+        'footer-texture': "url('./Components/HomeComponent/images/inquiry.jpg')",
+      }
       
     },
   },

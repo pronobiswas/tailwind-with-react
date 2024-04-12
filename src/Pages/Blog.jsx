@@ -1,9 +1,10 @@
 import React from 'react'
+import InquiryComponent from '../Components/HomeComponent/InquiryComponent'
 
 const Blog = () => {
   return (
     <div>
-      <h2>My blog</h2>
+      <InquiryComponent/>
     </div>
   )
 }

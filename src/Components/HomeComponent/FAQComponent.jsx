@@ -7,34 +7,34 @@ const FAQComponent = () => {
   let [showAns , setShowAns] = useState(false);
   const accordionData = [
     {
-      title: 'Section 1',
       index: "01",
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`
+      title: 'How much time does it take?',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
       index: "02",
-      title: 'Section 2',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`
+      title: 'What is your class naming convention?',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-      index: "02",
-      title: 'Section 3',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`
+      index: "03",
+      title: 'How do you communicate?',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+      index: "04",
+      title: 'I have a bigger project. Can you handle it?',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+      index: "05",
+      title: 'What is your class naming convention?',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
   ];
   
   let handleShowAns =()=>{
-    setShowAns(true)
+    setShowAns(!showAns)
   }
   let closeAns = ()=>{
     setShowAns(false)
@@ -43,14 +43,22 @@ const FAQComponent = () => {
     
     <>
     
-      <section id="FAQ" className='py-9'>
+      <section id="FAQ" className='py-28'>
         <div className="container">
             <div className="faqWarpper px-5 flex flex-col md:flex-row gap-8  xl:px-0">
-                <div className="relative faqTHeading w-80">
+                <div className="faqTHeading w-80">
                      <h3 className='text-3xl mb-4'>Frequently asked a question</h3>
                      <a href="#" className='text-RoyalBlue'>Contact Us for more info</a>
                 </div>
-                <div className="faqContent  lg:w-[846px]">
+                <div className="accordion md:w-[400px] lg:w-[664px] xl:w-[800px]">
+                        {accordionData.map(({ title, content,index }) => (
+                          <Accordion title={title} content={content}  index={index}/>
+                        ))}
+                </div>
+            </div>
+        </div>
+      </section>
+                {/* <div className="faqContent lg:w-[846px]">
                       <div  className='accordian md:w-[400px] lg:w-[664px] xl:w-[800px] relative flex gap-x-4'>
 
                         <div className="numBOX text-RoyalBlue text-xl font-bold"><span>01</span></div>
@@ -74,15 +82,8 @@ const FAQComponent = () => {
 
                       </div>
                     
-                      <div className="accordion">
-                        {accordionData.map(({ title, content,index }) => (
-                          <Accordion title={title} content={content}  index={index}/>
-                        ))}
-                      </div>
-                </div>
-            </div>
-        </div>
-      </section>
+
+                </div> */}
     </>
   )
 }

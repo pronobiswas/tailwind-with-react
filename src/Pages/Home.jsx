@@ -4,6 +4,7 @@ import WorkComponent from '../Components/HomeComponent/WorkComponent'
 import ProjectComponent from '../Components/HomeComponent/ProjectComponent'
 import Feature from '../Components/HomeComponent/Feature'
 import ClintSays from '../Components/HomeComponent/ClintSays'
+import FAQComponent from '../Components/HomeComponent/FAQComponent'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <ProjectComponent/>
       <Feature/>
       <ClintSays/>
+      <FAQComponent/>
     </>
   )
 }
