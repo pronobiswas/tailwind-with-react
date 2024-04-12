@@ -1,9 +1,10 @@
 import React from 'react'
+import ProjectComponent from '../Components/HomeComponent/ProjectComponent'
 
 const AboutUs = () => {
   return (
     <div>
-      <h1>About Us</h1>
+      <ProjectComponent/>
     </div>
   )
 }

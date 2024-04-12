@@ -1,23 +1,23 @@
 import React from 'react'
-// import bannerImage from './images/illustration.jpg'
+import BannerPng from './images/pohela.png'
 import { BsArrowRight } from "react-icons/bs";
 
 const BannerCompoent = () => {
   return (
     <>
-      <section id="banner" className='bg-[#1C1E53]'>
+      <section id="banner" className='bg-[#1C1E53] py-16'>
         <div className="container">
-            <div className="bannerWarpper flex flex-col gap-y-14">
+            <div className="bannerWarpper flex flex-col lg:flex-row gap-y-14">
                 <div className="bannerText px-5">
                     <h1 className='text-[#fff] md:w-[500px] text-5xl  lg:text-7xl'>Building stellar websites for early startups</h1>
                     <p className='text-[#fff] md:w-[500px] mt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <div className="banner-btn mt-10">
+                    <div className="banner-btn mt-10 flex items-center">
                         <button className='btn text-white '>View Our work</button>
-                        <button className=' text-white relative left-5'>view pricing <span className='absolute top-[7px] right-[-25px]'><BsArrowRight /></span></button>
+                        <a className='iconBtn text-white relative left-5  block'>view pricing <span className='absolute top-[7px] right-[-25px]'><BsArrowRight /></span></a>
                     </div>
                 </div>
                 <div className="bannerImages w-[100%] lg:w-[638px] h-[361px] bg-black">
-                    <img src="{ bannerImage }" alt="png" className='pic'/>
+                    <img src="{ BannerPng }" alt="png" className='pic w-[100px] h-[100px]' />
                 </div>
             </div>
         </div>

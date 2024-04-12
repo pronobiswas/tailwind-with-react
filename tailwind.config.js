@@ -7,11 +7,15 @@ export default {
   theme: {
     extend: {
       colors:{
-        sada:'#fff'
+        sada:'#fff',
+        RoyalBlue : '#1C1E53',
+        Darkblue : '#282938',
+        Tintblue : '#1C1E53',
+        Grey : '#F4F6FC',
+        Yellow : '#FCD980',
+        Accent : '#EEF4FA'
       },
-      maxWidth: {
-        'container': '92rem',
-      }
+      
     },
   },
   plugins: [],
