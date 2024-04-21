@@ -1,6 +1,7 @@
 import React from 'react'
 import BannerPng from './images/pohela.png'
 import { BsArrowRight } from "react-icons/bs";
+import Anchor from '../AnchorComponent/Anchor';
 
 const BannerCompoent = () => {
   return (
@@ -14,6 +15,7 @@ const BannerCompoent = () => {
                     <div className="banner-btn mt-10 flex items-center">
                         <button className='btn text-white '>View Our work</button>
                         <a className='iconBtn text-white relative left-5  block'>view pricing <span className='absolute top-[7px] right-[-25px]'><BsArrowRight /></span></a>
+                        {/* <Anchor linkText={"viewp ricing"} /> */}
                     </div>
                 </div>
                 <div className="bannerImages w-[100%] lg:w-[638px] h-[361px] bg-black">
