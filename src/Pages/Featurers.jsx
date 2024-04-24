@@ -34,7 +34,7 @@ const Featurers = () => {
               />
               <MiniCard 
                 cardIcon={<FaUsers />} 
-                cardTitle={'lorem2'} 
+                cardTitle={'lorem5'} 
                 cardText={'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'} 
               />
             </div>
