@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerPng from './images/pohela.png'
+import BannerPng from './images/banner.png'
 import { BsArrowRight } from "react-icons/bs";
 import Anchor from '../AnchorComponent/Anchor';
 
@@ -18,8 +18,8 @@ const BannerCompoent = () => {
                         {/* <Anchor linkText={"viewp ricing"} /> */}
                     </div>
                 </div>
-                <div className="bannerImages w-[100%] lg:w-[638px] h-[361px] bg-black">
-                    <img src="{ BannerPng }" alt="png" className='pic w-[100px] h-[100px]' />
+                <div className="bannerImages w-[100%] ">
+                    <img src={ BannerPng } alt="png" className='pic w-[100%] h-[100p%]' />
                 </div>
             </div>
         </div>

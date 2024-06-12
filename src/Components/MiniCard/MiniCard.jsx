@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const MiniCard = ({cardIcon, cardTitle,cardText }) => {
     
   return (
@@ -12,8 +13,10 @@ const MiniCard = ({cardIcon, cardTitle,cardText }) => {
             <div className="card_title text-xl mb-3">
                 {cardTitle}
             </div>
-            <div className="cardParagraph text-base">
-                {cardText}
+            <div className="cardParagraph">
+                <p className='font-extralight  text-Darkblue'>
+                  {cardText}
+                </p>
             </div>
         </div>
       </div>
