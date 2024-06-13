@@ -1,5 +1,45 @@
-.priceHeading{
+.oneCard{
+    background: rgb(34,193,195);
+background: linear-gradient(122deg, #22c0c37e 0%, rgba(253, 187, 45, 0.377) 100%);
+}
+.twoCard{
+    background: rgb(2,0,36);
+background: linear-gradient(350deg, rgb(255, 235, 124) 0%, rgb(230, 108, 255) 35%, rgb(183, 194, 253) 100%);
+}
+.threeCard{
+    background: rgb(2,0,36);
+background: linear-gradient(350deg, rgba(0, 131, 28, 0.226) 0%, rgba(23, 248, 199, 0.432) 35%, rgba(236, 4, 4, 0.411) 100%);
+}
+
+.fourCard{
+    background: rgb(2,0,36);
+background: linear-gradient(350deg, rgb(255, 248, 181) 0%, rgb(173, 255, 237) 35%, rgb(255, 186, 186) 100%);
+}
+.fiveCard{
+    background: rgb(2,0,36);
+background: linear-gradient(350deg, rgb(201, 181, 255) 0%, rgb(145, 252, 113) 35%, rgba(255, 128, 234, 0.589) 100%);
+}
+.filterdLinks span a{
+    padding: 5px 20px;
+    display: block;
+    position: relative;
+    text-shadow: 2px 2px 0 #788BC4;
+}
+.filterdLinks span a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: rgb(34,193,195);
+    background: linear-gradient(122deg, rgba(34,193,195,1) 0%, rgba(140,71,166,1) 45%, rgba(253,187,45,1) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.filterdLinks span a:hover{
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+}
+.filterdLinks span a:hover::after{
     width: 100%;
-    max-width: 562px;
-    margin: 50px auto;
+    transition: all .3s linear;
 }

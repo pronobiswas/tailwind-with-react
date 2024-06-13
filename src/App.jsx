@@ -13,6 +13,7 @@ import FAQ from './Pages/FAQ'
 import Featurers from './Pages/Featurers'
 import Pricing from './Pages/Pricing'
 import RootLayout from './Components/rootLayout/RootLayout';
+import Mywork from './Pages/Mywork';
 
 
 function App() {
@@ -23,10 +24,11 @@ function App() {
           <Route element={<RootLayout/>}> 
             <Route path='/' element={<Home/>}/>
             <Route path='/Blog' element={<Blog/>}/>
-            <Route path='/Pricing' element={<Pricing/>}/>
+            <Route path='/pricing' element={<Pricing/>}/>
             <Route path='/Featurers' element={<Featurers/>}/>
             <Route path='/AboutUs' element={<AboutUs/>}/>
             <Route path='/FAQ' element={<FAQ/>}/>
+            <Route path='/mywork' element={<Mywork/>}/>
           </Route>
       </>
     )

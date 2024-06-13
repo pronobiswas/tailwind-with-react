@@ -11,7 +11,7 @@ const Pricing = () => {
 
          <div className="price_warpper">
           {/* =========pageHeaging========== */}
-          <div className="priceHeading text-center">
+          <div className="priceHeading text-center w-full max-w-[562px] mx-auto mb-16">
             <h1 className='text-5xl font-bold mb-5'>Our Pricing Plans</h1>
             <p>
               When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.

@@ -15,8 +15,8 @@ const ProjectComponent = () => {
                 <a className='iconBtn text-black relative  block'>view here<span className='absolute top-1 left-20'><FaArrowRightLong /></span></a>
             </div>
             <div className="projectContentWarppe flex flex-col lg:flex-row gap-4">
-                <div className='bgImage w-[100%] lg:w-[843px] h-[400px] md:h-[500px] lg:h-[600px] bg-blue-500'>
-                    <div className="bgImageOverlay w-[300px] h-[100%] bg-[#1e1e51d4] relative">
+                <div className='bgImage group w-[100%] lg:w-[843px] h-[400px] md:h-[500px] lg:h-[600px] bg-blue-500'>
+                    <div className="bgImageOverlay w-0 group-hover:w-[300px] h-[100%] bg-[#1e1e51d4] relative transition-all ease-in-out duration-300">
                         <div className="positionedTxt text-white px-2 absolute bottom-5">
                             <h4 className='text-2xl'>Workhub office Webflow Webflow Design</h4>
                             <p className='text-base mt-5 mb-6'>
@@ -30,7 +30,7 @@ const ProjectComponent = () => {
                 <div className='flex md:flex-row lg:flex-col  gap-2'>
                     <div className="w-[405px] h-[284px] bg-red-200 relative workcard">
                         <img src={cardImageone} alt="image" className='pic '/>
-                        <div className="workCardoverlay absolute w-[100%] h-[100%] px-2 md:px-6 bg-[#161653dd] top-0  text-white">
+                        <div className="workCardoverlay absolute w-[100%] h-[100%] px-2 md:px-6 bg-[#161653dd] top-0  text-white transition-all ease-in-out duration-300">
                             <h3 className='text-base w-[250px] mt-56 md:text-3xl md:mt-32 md:mb-6'>Unisas website design</h3>
                             <a href="#" className='text-sm'>view portfolio</a>
                         </div>
