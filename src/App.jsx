@@ -14,6 +14,9 @@ import Featurers from './Pages/Featurers'
 import Pricing from './Pages/Pricing'
 import RootLayout from './Components/rootLayout/RootLayout';
 import Mywork from './Pages/Mywork';
+import CaseStudies from './Pages/CaseStudies';
+import Contact from './Pages/Contact';
+import ReadBlog from './Pages/ReadBlog';
 
 
 function App() {
@@ -23,12 +26,15 @@ function App() {
       <>
           <Route element={<RootLayout/>}> 
             <Route path='/' element={<Home/>}/>
-            <Route path='/Blog' element={<Blog/>}/>
+            <Route path='/blog' element={<Blog/>}/>
             <Route path='/pricing' element={<Pricing/>}/>
             <Route path='/Featurers' element={<Featurers/>}/>
             <Route path='/AboutUs' element={<AboutUs/>}/>
             <Route path='/FAQ' element={<FAQ/>}/>
             <Route path='/mywork' element={<Mywork/>}/>
+            <Route path='/case' element={<CaseStudies/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/readblog' element={<ReadBlog/>}/>
           </Route>
       </>
     )

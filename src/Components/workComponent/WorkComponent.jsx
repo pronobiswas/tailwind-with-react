@@ -6,6 +6,9 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import workSampleone from '../../../public/workPhoto.png'
 const WorkComponent = () => {
+    const handleContactBtn =()=>{
+        console.log('navigate korlamna');
+    }
   return (
     <>
     <div id="MyWorkSection" >
@@ -53,7 +56,7 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
                     <div className="templateBox">
@@ -68,7 +71,7 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
                        
@@ -86,7 +89,7 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
 
@@ -102,7 +105,7 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
                        
@@ -120,7 +123,7 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
                     <div className="templateBox">
@@ -135,17 +138,11 @@ const WorkComponent = () => {
                             <p className='text-sm mb-4'>
                                 Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
                             </p>
-                            <span className='flex items-center gap-x-3'><a href="#">View Portfolio</a> <FaArrowRightLong /></span>
+                            <span className='flex items-center gap-x-3'><a href={'/case'}>View Portfolio</a> <FaArrowRightLong /></span>
                         </div>
                     </div>
                        
-                </div>
-
-                
-
-                
-
-                
+                </div>             
 
             </div>
         </div>
@@ -156,7 +153,7 @@ const WorkComponent = () => {
                 <p className='mt-5 mb-10 text-sm'>
                     Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.
                 </p>
-                <button className='bg-yellow-400 px-9 py-3 rounded-3xl'>Contact Us</button>
+                <a href={'/contact'}><button className='bg-yellow-400 px-9 py-3 rounded-3xl' onClick={handleContactBtn}>Contact Us</button></a>
             </div>
         </div>
 

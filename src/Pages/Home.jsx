@@ -32,17 +32,20 @@ const Home = () => {
           blogthumbnil={image1}
           blogDate ={"19 Jan 2022"} 
           blogCardTitle= {'How one Webflow user grew his single person consultancy from $0-100K in 14 months'} 
-          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'} />
+          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'} 
+          href={'/mywork'}/>
           <BlogCard 
           blogthumbnil={image2}
           blogDate ={"19 Jan 2022"} 
           blogCardTitle= {'How one Webflow user grew his single person consultancy from $0-100K in 14 months'} 
-          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'} />
+          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'}
+          href={'/mywork'} />
           <BlogCard 
           blogthumbnil={image3}
           blogDate ={"19 Jan 2022"} 
           blogCardTitle= {'How one Webflow user grew his single person consultancy from $0-100K in 14 months'} 
-          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'} />
+          BlogCardPara={'See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract'}
+          href={'/mywork'} />
         </div>
       </div>
       </section>

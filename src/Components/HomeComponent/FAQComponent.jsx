@@ -49,7 +49,7 @@ const FAQComponent = () => {
             <div className="faqWarpper px-5 flex flex-col md:flex-row gap-8  xl:px-0">
                 <div className="faqTHeading w-80">
                      <h3 className='text-3xl mb-4'>Frequently asked a question</h3>
-                     <a href="#" className='text-RoyalBlue'>Contact Us for more info</a><br />
+                     <a href="/contact" className='text-RoyalBlue'>Contact Us for more info</a><br />
                 </div>
                 <div className="accordion md:w-[400px] lg:w-[664px] xl:w-[800px]">
                         {accordionData.map(({ title, content,index }) => (

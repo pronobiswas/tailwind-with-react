@@ -7,14 +7,14 @@ import teamPic3 from '../../public/teamPic3.png'
 import teamPic4 from '../../public/teamPic4.png'
 import teamPic5 from '../../public/teamPic5.png'
 import teamPic6 from '../../public/teamPic6.png'
+import blogImagebanner from '../../public/blogImagebanner.png'
 
 const Blog = () => {
   
   return (
     <>
 
-    <div className="container py-32">
-
+    <div className="container py-32 pt-20">
       <div className="blogBanner">
 
         <div className="bannerHeade w-full max-w-[950px] m-auto text-center">
@@ -26,7 +26,7 @@ const Blog = () => {
           </p>
         </div>
         <div className="blogBannerImg w-full h-[477px] bg-slate-400">
-          <img src="https://i.pinimg.com/564x/39/34/d2/3934d24165c88ff27bed2338f82c9558.jpg" alt="" className='w-full h-full'/>
+          <img src={blogImagebanner} alt="" className='w-full h-full'/>
         </div>
         <p className='text-center w-full max-w-[700px] mx-auto mt-12 mb-8'>
           Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.
