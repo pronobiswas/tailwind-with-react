@@ -17,28 +17,28 @@ const WorkComponent = () => {
                     </div>
                 </div>
                 <div className="workCard flex flex-wrap md:items-center md:justify-center">
-                    <div className="workCardItem w-[300px]  bg-slate-300 p-4">
+                    <div className="workCardItem w-[300px] p-4">
                         <span className='text-6xl text-blue-900'><GiClosedBarbute /></span>
                         <h3 className='text-2xl font-bold'>Strategy</h3>
                         <p className='py-4'>
                             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
                         </p>
                     </div>
-                    <div className="workCardItem w-[300px]  bg-slate-300 p-4">
+                    <div className="workCardItem w-[300px] p-4">
                         <span className='text-6xl text-blue-900'><GiClosedBarbute /></span>
                         <h3 className='text-2xl font-bold'>Strategy</h3>
                         <p className='py-4'>
                             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
                         </p>
                     </div>
-                    <div className="workCardItem w-[300px]  bg-slate-300 p-4">
+                    <div className="workCardItem w-[300px] p-4">
                         <span className='text-6xl text-blue-900'><GiClosedBarbute /></span>
                         <h3 className='text-2xl font-bold'>Strategy</h3>
                         <p className='py-4'>
                             Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .
                         </p>
                     </div>
-                    <div className="workCardItem w-[300px]  bg-slate-300 p-4">
+                    <div className="workCardItem w-[300px] p-4">
                         <span className='text-6xl text-blue-900'><GiClosedBarbute /></span>
                         <h3 className='text-2xl font-bold'>Strategy</h3>
                         <p className='py-4'>

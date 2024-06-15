@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import  logo  from './logo.png'
 import { FaBars } from "react-icons/fa6";
 import { GrClose } from "react-icons/gr";
 
 
 const Navbar = () => {
+  let navigate = useNavigate()
   let [showMenu , setShowMenu] = useState(false);
   let [menuBar , setMenuBar] = useState(true);
   let handleShoowMenu =()=>{
@@ -16,6 +17,9 @@ const Navbar = () => {
     setMenuBar(true)
     setShowMenu(false)
     console.log("horibol");
+  }
+  let handleContactBtn =()=>{
+    navigate('/contact')
   }
   return (
     <>
@@ -48,7 +52,7 @@ const Navbar = () => {
                                   <Link to="/Pricing">pricing</Link>
                               </li>
                       </ul>
-                      <button className='py-3 px-8 border-2 border-color:[#F4F6FC] rounded-[40px] text-white hidden lg:block'>Contact Us </button>
+                      <button className='py-3 px-8 border-2 border-color:[#F4F6FC] rounded-[40px] text-white hidden lg:block' onClick={handleContactBtn}>Contact Us </button>
                   </div>
                 </div>
                 <div className="togoleMenu md:hidden relative">
