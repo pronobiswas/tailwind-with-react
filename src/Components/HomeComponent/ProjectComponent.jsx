@@ -2,6 +2,7 @@ import React from 'react'
 import CardImagetwo from './images/CardImagetwo.jpg'
 import cardImageone from './images/cardImageone.png'
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const ProjectComponent = () => {
@@ -13,7 +14,7 @@ const ProjectComponent = () => {
 
             <div className="projectHeading mb-12">
                 <h2 className='text-4xl mb-2'>View Our Project</h2>
-                <a href={'/mywork'} className='iconBtn text-black relative  block'>view here<span className='absolute top-1 left-20'><FaArrowRightLong /></span></a>
+                <Link to='/mywork' className='iconBtn text-black relative  block'>view here<span className='absolute top-1 left-20'><FaArrowRightLong /></span></Link>
             </div>
 
             <div className="projectContentWarppe flex flex-col lg:flex-row gap-4">
@@ -24,7 +25,7 @@ const ProjectComponent = () => {
                             <p className='text-base mt-5 mb-6'>
                                 Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam 
                             </p>
-                            <a href={'/mywork'}>view project</a>
+                            <Link to='/mywork'>view project</Link>
                         </div>
                     </div>
 
@@ -34,14 +35,14 @@ const ProjectComponent = () => {
                         <img src={cardImageone} alt="image" className='pic '/>
                         <div className="workCardoverlay absolute w-[100%] h-[100%] px-2 md:px-6 bg-[#161653dd] top-0  text-white transition-all ease-in-out duration-300">
                             <h3 className='text-base w-[250px] mt-56 md:text-3xl md:mt-32 md:mb-6'>Unisas website design</h3>
-                            <a href="https://react-roter-dom.vercel.app/" className='text-sm'>view portfolio</a>
+                            <Link to="https://react-roter-dom.vercel.app/" className='text-sm'>view portfolio</Link>
                         </div>
                     </div>
                     <div className="w-[405px] h-[284px] bg-red-200 relative workcard">
                         <img src={CardImagetwo} alt="image" className='pic'/>
                         <div className="workCardoverlay absolute w-[100%] h-[100%] px-2 md:px-6 bg-[#161653dd] top-0  text-white">
                             <h3 className='text-base w-[250px] mt-56 md:text-3xl md:mt-32 md:mb-6'>Unisas website design</h3>
-                            <a href="https://react-roter-dom.vercel.app/" className='text-sm'>view portfolio</a>
+                            <Link to="https://react-roter-dom.vercel.app/" className='text-sm'>view portfolio</Link>
                         </div>
                     </div>
                 </div>

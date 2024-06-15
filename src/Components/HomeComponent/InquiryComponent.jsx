@@ -1,5 +1,6 @@
 import React from 'react'
 import Anchor from '../AnchorComponent/Anchor'
+import { Link } from 'react-router-dom'
 
 const InquiryComponent = () => {
   return (
@@ -26,7 +27,7 @@ const InquiryComponent = () => {
                             <button className='block bg-yellow-700 py-3 rounded-xl	'>
                               Send an inquiry
                             </button>
-                            <Anchor linkText={'Get in a touch'} />
+                            <Link to='/contact'>Get in touch with us →</Link>
                         </form>
                     </div>
                 </div>

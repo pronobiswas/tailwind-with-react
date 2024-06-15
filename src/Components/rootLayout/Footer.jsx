@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="footerMenu bg-slate-500 px-5 xl:px-0">
 
                 <div className="container menuList flex flex-col lg:flex-row items-center justify-between">
-                  <h2><a href={'/pop'} className='PrivecyLink text-xl text-white'>Privacy & Policy</a></h2>
+                  <h2><Link  to={'/pop'} className='PrivecyLink text-xl text-white'>Privacy & Policy</Link></h2>
                     <ul className='flex gap-1 md:gap-x-5   [&>li]:text-xs md:[&>li]:text-base [&>li]:font-extralight md:[&>li]:font-normal  [&>li] : text-white [&>li]:py-4'>
                             <li>
                                 <Link to="/">Home</Link>

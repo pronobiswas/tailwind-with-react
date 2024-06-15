@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="container">
             <div className="menuWarpper py-[32] px-5 flex justify-between">
                 <div className="logo h-center">
-                   <a href="/"><img src= { logo }  alt="png" /></a>
+                   <Link to="/"><img src= { logo }  alt="png" /></Link>
                 </div>
                 <div className="menuBar hidden md:block">
                   <div className="menuList flex gap-x-8">

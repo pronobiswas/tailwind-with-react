@@ -8,16 +8,17 @@ import teamPic4 from '../../public/teamPic4.png'
 import teamPic5 from '../../public/teamPic5.png'
 import teamPic6 from '../../public/teamPic6.png'
 import blogImagebanner from '../../public/blogImagebanner.png'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   
   return (
     <>
 
-    <div className="container py-32 pt-20">
-      <div className="blogBanner">
+    <div className="container pt-20">
+      <div className="blogBanner w-full h-full">
 
-        <div className="bannerHeade w-full max-w-[950px] m-auto text-center">
+        <div className="bannerHeade w-full max-w-[950px] mx-auto text-center">
           <h1 className='text-5xl font-bold'>
             A UX Case Study on Creating a Studious Environment for Students
           </h1>
@@ -25,20 +26,20 @@ const Blog = () => {
             <i>Andrew Jonson</i>Posted on 27th January 2021
           </p>
         </div>
-        <div className="blogBannerImg w-full h-[477px] bg-slate-400">
+        <div className="blogBannerImg w-full h-[477px]">
           <img src={blogImagebanner} alt="" className='w-full h-full'/>
         </div>
-        <p className='text-center w-full max-w-[700px] mx-auto mt-12 mb-8'>
+        <p className='text-center w-full max-w-[700px] mx-auto mt-12 mb-3'>
           Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.
         </p>
-        <p className='text-center text-blue-800'><a href="#">read more</a></p>
+        <p className='text-center text-blue-800'><Link href="#">read more</Link></p>
 
       </div>
     </div>
 
 
 
-    <div className="container">
+    <div className="container pt-20">
       <h2 className='text-4xl font-bold text-center mb-12'>Our Blog</h2>
       <div className='grid grid-rows-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-12 grid-flow-row justify-items-center gap-y-14 mb-32'>
         <BlogCard 

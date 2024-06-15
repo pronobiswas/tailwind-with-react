@@ -2,7 +2,7 @@ import React from 'react'
 import BannerPng from './images/banner.png'
 import { BsArrowRight } from "react-icons/bs";
 import Anchor from '../AnchorComponent/Anchor';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const BannerCompoent = () => {
@@ -20,7 +20,7 @@ const BannerCompoent = () => {
                     <p className='text-[#fff] md:w-[500px] mt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <div className="banner-btn mt-10 flex items-center">
                         <button className='btn text-white hover:bg-yellow-600 transition-all ease-in-out duration-300  ' onClick={handleViewWork} >View Our work</button>
-                        <a href='/pricing' className='iconBtn text-white relative left-5  block'>view pricing <span className='absolute top-[7px] right-[-25px]'><BsArrowRight /></span></a>
+                        <Link to='/pricing' className='iconBtn text-white relative left-5  block'>view pricing <span className='absolute top-[7px] right-[-25px]'><BsArrowRight /></span></Link>
                         {/* <Anchor linkText={"viewp ricing"} /> */}
                     </div>
                 </div>

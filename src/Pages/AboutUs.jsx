@@ -26,13 +26,13 @@ const AboutUs = () => {
 
           <div id="AboutUsFirstSection">
             <div className="container">
-              <div className="wrpper px-5 xl:px-0 flex flex-col md:flex-row justify-between">
+              <div className="wrpper px-5 xl:px-0 pt-20 flex flex-col md:flex-row justify-between">
                 <div className='w-full  md:w-[595px]'>
-                  <h5 className='w-full'>About us</h5>
+                  <h5 className='w-full '>About us</h5>
                   <h2 className='text-5xl font-bold mt-2 mb-8'>Our designs solve problems</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <div className='w-full md:w-[547px] h-[336px] bg-red-800'>
+                <div className='w-full md:w-[547px] h-[336px]'>
                   <img src={aboutUsImage01} alt="png" />
                 </div>
               </div>
