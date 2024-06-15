@@ -62,3 +62,6 @@ background: linear-gradient(356deg, rgba(19,0,255,0.7540983606557377) 0%, rgba(2
     background: rgb(255,255,255);
 background: linear-gradient(170deg, rgba(255,255,255,1) 0%, rgba(212,234,239,1) 53%, rgba(94, 226, 255, 0.486) 100%);
 }
+.PrivecyLink{
+    -webkit-text-stroke: 1px rgb(249, 255, 166);
+}

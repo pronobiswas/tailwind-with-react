@@ -67,7 +67,8 @@ const Contact = () => {
                                 <textarea 
                                 name="masage" 
                                 id="masage" 
-                                className='w-full min-h-[250px] mt-3 py-1 border border-transprent hover:border-slate-400 rounded-lg'>
+                                className='w-full min-h-[250px] mt-3 py-1 border border-transprent hover:border-slate-400 rounded-lg'
+                                placeholder='Write your Masage here'>
                                 </textarea>
                             </div>
                         </div>

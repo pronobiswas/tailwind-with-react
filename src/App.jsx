@@ -17,6 +17,8 @@ import Mywork from './Pages/Mywork';
 import CaseStudies from './Pages/CaseStudies';
 import Contact from './Pages/Contact';
 import ReadBlog from './Pages/ReadBlog';
+import PrivecyAndPolice from './Pages/PrivecyAndPolice';
+
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
             <Route path='/case' element={<CaseStudies/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/readblog' element={<ReadBlog/>}/>
+            <Route path='/pop' element={<PrivecyAndPolice/>}/>
+            
           </Route>
       </>
     )
