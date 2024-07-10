@@ -1,0 +1,19 @@
+.menuList ul li a{
+    position: relative;
+}
+.menuList ul li a::after{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #919191;
+
+}
+.menuList ul li:hover a::after{
+    background:#fff;
+    width: 100%;
+    transition: .2s all linear;
+    /* transform: translate(-50%); */
+}
